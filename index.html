@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <script language="javascript">
+        document.onmousedown = disableclick;
+        status = "nah 💯"; //just to be annoying tbh
+        function disableclick(e)
+        {
+            if (event.button == 2)
+            {
+                alert(status);
+                return false;
+            }
+        }
+
+    </script>
+
+    <title>ㅤ</title>
+    <script src="title.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <script src="jquery.min.js"></script>
+    <script src="jquery.marquee.min.js"></script>
+    <script src="client.js"></script>
+
+    <body oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;">
+
+        <body>
+            <div id="center">
+                <div class="animated fadeInDown">
+                </div>
+                <div class="animated fadeInUp">
+                    <p>UPCOMING SHOWS</p>
+                    <div id="marquee"></div>
+                </div>
+        </div>
+            <br>
+            <pre text-align="bottom"><a href="https://twitter.com/soIitud3" text-align="bottom" align="bottom" target="_blank">TWITTER</a> ⋅ <a href="https://www.youtube.com/@solitud3">YOUTUBE</a> ⋅ <a href="https://soundcloud.com/SOLlTUDE">SOUNDCLOUD</a> ⋅ <a href="https://soundcloud.com/NECESSlTlES">ALT SOUNDCLOUD</a> ⋅ <a href="https://solitude-8.creator-spring.com/">MERCH</a> ⋅ <a href="https://SOLlTUDE.bandcamp.com/">BANDCAMP</a> ⋅ <a href="https://instagram.com/soi.tude">INSTAGRAM</a>
+		    <video src="vids/solitude_heart2.mp4" id="myvideo" autoplay="">
+        </video>
+        <script type="text/javascript">
+        var myvid = document.getElementById('myvideo');
+        var myvids = [ "SOLlTUDE.github.io/vids/solitude_heart2.mp4" ];
+        var activeVideo = 0;
+
+        myvid.addEventListener('ended', function(e)
+        {
+          activeVideo = (++activeVideo) % myvids.length;
+          myvid.src = myvids[activeVideo];
+          myvid.play();
+        });
+        </script>
+</body>
+</html>

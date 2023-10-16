@@ -1,0 +1,72 @@
+
+body {
+    /* background: url(https://i.imgur.com/4003cn5.gif) no-repeat center center fixed; */
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    font-family: monospace;
+    font-weight: bold;
+    color: #252525;
+    text-shadow: 1px 1px 0px rgba(8,230,255,100), -1px -1px 0px rgba(255,0,0,100);
+}
+pre {
+    text-align: center;
+    font-family: monospace;
+}
+p {
+    text-align: center;
+    font-family: monospace;
+}
+#center {               
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+a {
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+}
+
+#marquee {
+    width: 400px;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: -3px;
+}
+video {
+    position: fixed;
+    top:50%;
+    left:50%;
+    min-width:100%;
+    min-height:100%;
+    width:auto;
+    height:auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    opacity: 50%;
+}
+
+.card-overlay {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('https://www.solidbackgrounds.com/images/3840x2160/3840x2160-black-solid-color-background.jpg');
+  }
