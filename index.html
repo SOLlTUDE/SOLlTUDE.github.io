@@ -5,10 +5,10 @@
 
     <title>ㅤ</title>
 
-    <audio autoplay>
+    <audio autoplay controls loop>
         <source src="music/crying.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
-      </audio>
+    </audio>
 
     <script src="title.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -30,20 +30,8 @@
         </div>
             <br>
             <pre text-align="bottom"><a href="https://twitter.com/soIitud3" text-align="bottom" align="bottom" target="_blank">TWITTER</a> ⋅ <a href="https://www.youtube.com/@solitud3">YOUTUBE</a> ⋅ <a href="https://soundcloud.com/SOLlTUDE">SOUNDCLOUD</a> ⋅ <a href="https://soundcloud.com/NECESSlTlES">ALT SOUNDCLOUD</a> ⋅ <a href="https://solitude-8.creator-spring.com/">MERCH</a> ⋅ <a href="https://SOLlTUDE.bandcamp.com/">BANDCAMP</a> ⋅ <a href="https://instagram.com/soi.tude">INSTAGRAM</a>
-		    <video src="vids/solitude_heart2.mp4" id="myvideo" autoplay="">
-        </video>
-        <script type="text/javascript">
-        var myvids = [
-          "solltude.github.io/vids/solitude_heart2.mp4",
-          ];
-        var activeVideo = 0;
-
-        myvid.addEventListener('ended', function(e)
-        {
-          activeVideo = (++activeVideo) % myvids.length;
-          myvid.src = myvids[activeVideo];
-          myvid.play();
-        });
-        </script>
+            <video id="myvideo" autoplay muted loop="">
+                <source src="vids/solitude_heart2.mp4" type="video/mp4">
+            </video>
 </body>
 </html>
