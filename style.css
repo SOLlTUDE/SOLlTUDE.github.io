@@ -36,14 +36,15 @@ p {
     -o-transform: translate(-50%, -50%);
 }
 a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
     color: inherit;
     text-align: center;
     text-decoration: none;
-    width: 400px;
 }
 
 #marquee {
-    width: 400px;
     overflow: hidden;
     display: inline-block;
     margin-bottom: -3px;

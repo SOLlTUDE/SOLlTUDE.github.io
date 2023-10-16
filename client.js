@@ -1,8 +1,8 @@
 $(document).ready(function() {
     var links = [
 		{
-            name: 'BOLTON - 02.12.2023',
-            link: 'https://www.songkick.com/concerts/41466793-lil-liar-at-alma-inn?utm_source=8123&utm_medium=partner&utm_content=c80e1b72523a3dc5fd5b8770bacab9c3&utm_campaign=entity'
+            name: 'ALONE, TOGETHER - OUT NOW!',
+            link: 'https://songwhip.com/solitude2/alone-together'
         },
     ];
 
