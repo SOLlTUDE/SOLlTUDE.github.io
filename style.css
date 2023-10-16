@@ -61,12 +61,3 @@ video {
     background-size: cover;
     opacity: 50%;
 }
-
-.card-overlay {
-    background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url('https://www.solidbackgrounds.com/images/3840x2160/3840x2160-black-solid-color-background.jpg');
-  }
